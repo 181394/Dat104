@@ -1,0 +1,10 @@
+CREATE SCHEMA IF NOT EXISTS fest;
+CREATE TABLE IF NOT EXISTS fest.deltaker(
+  mob   VARCHAR(8) NOT NULL,
+  fname VARCHAR NOT NULL,
+  lname VARCHAR NOT NULL,
+  kjoen VARCHAR NOT NULL,
+  betalt BOOLEAN,
+
+  PRIMARY KEY (mob)
+);

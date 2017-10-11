@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inherit-compiler-output="true" inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/out/test/Dat104_Obl1_Gr04"/>
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$">
+		<testFolder url="file://$MODULE_DIR$/test"/>
+	</contentEntry>
+	<lib name="TomEE 8.5.6" scope="PROVIDED"/>
+	<levels>
+		<level name="TomEE 8.5.6" value="application_server_libraries"/>
+		<level name="JPA 2.0-2.0" value="project"/>
+	</levels>
+</component>
